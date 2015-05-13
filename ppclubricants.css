@@ -1,0 +1,188 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+#background {
+	width:1000px;
+}
+
+#header {
+	display:block;
+	height:100px;
+	background: linear-gradient(#E7E7E7, #FFFFFF);
+}
+
+	#hearder img {
+		margin-left: 20px;
+	}
+	
+	#header h3 {
+		margin-left: 260px;
+		display: inline-block;
+		bottom: 20px;
+		position: relative;
+		font-family: Verdana;
+	}
+#searchbar {
+	background: linear-gradient(#FAFAFA, #D9DFE4);
+	display:block;
+	width:1000px;
+	padding: 5px 0;
+	border-top:3px groove white;
+	margin-bottom: 15px;
+}
+	
+	#searchbar ul {
+		margin-left: 50px;
+		padding: 4.5px 0px
+	}
+
+	#searchbar ul li{
+		display: inline;
+		padding: 10px;
+	}
+
+	#outsideleft {
+		border-left: 3px groove white;
+		border-right: 3px groove white;
+	}
+
+	.searchnormal {
+		border-right: 3px groove white;
+	}
+
+	#searchbar a {
+		color:#4E4B4E;
+		text-decoration: none;
+		font-size: 14px;
+	}
+
+#main {
+	display: block;
+	background: linear-gradient(to right, black, #444444, black);
+	height: 600px;
+	padding:20px 40px;
+}
+
+	#maintop {
+		height:260px;
+		margin-bottom: 10px;
+	}
+	
+		#topleft {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		#topleft img {
+			border:5px solid white;
+			height:250px;
+		}
+
+		#topright {
+			display: inline-block;
+			width: 450px;
+			margin-left:40px;
+		}
+
+		#ppctitle {
+			opacity: 1;
+			display: block;
+			background: linear-gradient(#F6D14D, #FAC800);
+			height:25px;
+			color:black;
+			padding:5px 0px 5px 10px;
+
+		}
+		
+		#ppctitle h5 {
+			margin-top: 5px;
+			font-family: verdana;
+		}
+
+		#heritage {
+			background-color: rgba(255, 255, 255, .17);
+			display:block;
+			height: 215px;
+			padding: 5px;
+		}
+
+		#heritage h4 {
+			color: white;
+			margin-bottom: 7px;
+			font-family: verdana;
+		}
+
+		#heritage p {
+			color: white;
+			font-size: 11px;
+			margin-bottom: 7px;
+			font-family: verdana;
+		}
+
+	#mainmiddle {
+
+	}
+
+		#middlepic {
+			height:20px;
+			width:60px;
+			display: inline-block;
+			border-radius: 3px;
+			margin-left: 25px
+		}
+		#mainmiddle p {
+			display: inline-block;
+			margin-left:15px;
+			vertical-align: top;
+			margin-top: 3px;
+		}
+		#mainmiddle a {
+			color:#98A55B;
+			font-size: 11px;
+			font-family: arial;
+			text-decoration:none;
+		}
+	#mainbottom {
+		margin-left: -20px;
+	}
+
+		.acid {
+			margin-top: 10px;
+			display: inline-block;
+			width: 200px;
+			height: 250px;
+			background: linear-gradient(white, #FEF4DD);
+			margin-left: 20px;
+		}
+		
+		.acidtitle {
+			display: block;
+			color:black;
+			background: linear-gradient(#F6D14D, #FAC800);
+			padding: 5px;
+			padding-left: 10px;
+			font-family:arial;
+		}
+
+		.acidimg {
+			max-width:100%;
+			display: inline-block;
+		}
+
+		.acidp {
+			font-family: arial;
+			font-size:12px;
+			margin:5px 10px;
+			}
+
+		.readbutton {
+			margin-left: 90px;
+			margin-top: 10px;
+		}
+
+
+
+
+
